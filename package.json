@@ -1,0 +1,56 @@
+{
+  "name": "cryptoppjs",
+  "description": "Node.js native addons for cryptopp",
+  "version": "1.0.0",
+  "contributors": [
+    {
+      "name": "Nicola Del Gobbo",
+      "email": "nicoladelgobbo@gmail.com"
+    },
+    {
+      "name": "Mauro Doganieri",
+      "email": "mauro.doganieri@gmail.com"
+    }
+  ],
+  "keywords": [
+    "cryptography",
+    "crypto",
+    "native",
+    "addons",
+    "cryptopp"
+  ],
+  "license": "Apache-2.0",
+  "scripts": {
+    "test": "node node_modules/jasmine/bin/jasmine.js JASMINE_CONFIG_PATH=__tests__/jasmine.json"
+  },
+  "engines": {
+    "node": ">= 4.0.0"
+  },
+  "gypfile": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NickNaso/cryptoppjs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NickNaso/cryptoppjs/issues"
+  },
+  "homepage": "http://www.nacios.it/",
+  "dependencies": {
+    "bindings": "^1.2.1",
+    "nan": "^2.6.2"
+  },
+  "devDependencies": {
+    "jasmine": "^2.6.0"
+  },
+  "main": "./index.js",
+  "files": [
+    "LICENSE",
+    "README.md",
+    "CHANGELOG.md",
+    "binding.gyp",
+    "index.js",
+    "binding.gyp",
+    "lib/",
+    "src/"
+  ]
+}
